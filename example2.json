@@ -1,0 +1,25 @@
+{
+  "type": "double-line-full",
+  "name": "Database Connection Status",
+  "headers": ["Database", "Status", "Connections", "Response Time"],
+  "rows": [
+    ["**Primary DB**", "Online", "45/100", "12ms"],
+    ["**Replica DB**", "Online", "23/50", "8ms"],
+    ["**Cache DB**", "Warning", "78/80", "156ms"],
+    ["**Analytics DB**", "Offline", "0/25", "N/A"]
+  ],
+  "png": {
+    "title_font": {
+      "path": "Arial Bold",
+      "size": 16
+    },
+    "content_font": {
+      "path": "Arial",
+      "size": 14
+    },
+    "ascii_font": {
+      "path": "Courier New",
+      "size": 14
+    }
+  }
+}

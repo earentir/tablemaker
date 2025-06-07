@@ -1,0 +1,26 @@
+{
+  "type": "single-line-full",
+  "name": "FAT File System Structure",
+  "headers": ["Region", "Sectors", "Typical", "Purpose"],
+  "rows": [
+    ["**Reserved**", "1–n", "1 (FAT12)", "Boot sector + optional extras"],
+    ["**FAT #1**", "varies", "", "Allocation map"],
+    ["**FAT #2**", "varies", "", "Redundant copy"],
+    ["**Root Dir**", "varies", "14 (360 K)", "Fixed-size directory"],
+    ["**Data Area**", "rest", "", "Cluster #2 … end‑of‑volume"]
+  ],
+  "png": {
+    "title_font": {
+      "path": "/usr/share/fonts/source-code-pro/SourceCodePro-Bold.ttf",
+      "size": 12
+    },
+    "content_font": {
+      "path": "/usr/share/fonts/source-code-pro/SourceCodePro-Regular.ttf",
+      "size": 12
+    },
+    "ascii_font": {
+      "path": "/usr/share/fonts/source-code-pro/SourceCodePro-Regular.ttf",
+      "size": 12
+    }
+  }
+}
